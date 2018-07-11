@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MapsMeProject</string>
+    <string name="map_fragment">MapFragment</string>
+    <string name="flex_fragment">FlexFragment</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+                android:orientation="vertical"
+                android:id="@+id/flex_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:maxHeight="100dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:gravity="top|bottom"
+                android:background="@color/colorFlexOverlay">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:text="Entity_Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:id="@+id/entity_name"/>
+
+                <TextView
+                        android:text="Description here: this entity is awesome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:height="40dp"/>
+
+                <Button
+                        android:text="Button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </FrameLayout>
+
+</android.widget.FrameLayout>
